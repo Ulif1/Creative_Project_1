@@ -8,3 +8,19 @@ body{
   background-attachment: fixed;
   background-image: url(/images/background-pattern.jpg);
 }
+
+.nav-item{
+  transition: 0.2s;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item:hover{
+  transform: scale(1.2,1.2);
+  background-color: #00000032;
+  border-radius: 50px;
+}
+
+#footer-link{
+  padding-right: 50px;
+}
