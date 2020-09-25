@@ -6,7 +6,21 @@
 
 body{
   background-attachment: fixed;
-  background-image: url(/images/background-pattern.jpg);
+  
+}
+
+.bg-light{
+  background-color: #DDD !important;
+}
+
+.jumbotron{
+  background-color: #DDD;
+  text-align: center;
+  padding: 1%;
+}
+
+.serif{
+  font-family: serif;
 }
 
 .nav-item{
@@ -30,5 +44,14 @@ body{
     text-align: center;
     width: 30%;
     margin: auto;
+  }
+
+  ul{
+    background-color: #ff944d;
+    border-radius: 50px;
+  }
+
+  body{
+    margin-top: 40px;
   }
 }
