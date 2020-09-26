@@ -6,15 +6,21 @@
 
 body{
   background-attachment: fixed;
-
+  background-image: url(/images/black-texture.jpg);
+  color: white;
+  margin-bottom: 10%;
 }
 
 .bg-light{
-  background-color: #F9F9F9 !important;
+  background-image: url(/images/Orange_Construction.jpg);
+  background-color: black;
+  background-blend-mode: luminosity;
 }
 
 .jumbotron{
-  background-color: #F9F9F9;
+  background-image: url(/images/Orange_Construction.jpg);
+  background-color: black;
+  background-blend-mode: luminosity;
   text-align: center;
   padding: 1%;
 }
@@ -43,13 +49,14 @@ body{
 
 .nav-item:hover{
   transform: scale(1.2,1.2);
-  background-color: #00000032;
+  background-color: #00000067;
   border-radius: 50px;
 }
 
 .inventory{
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 3px;
+  background-color: #0004;
 }
 
 #footer-link{
