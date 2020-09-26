@@ -7,19 +7,21 @@
 body{
   background-attachment: fixed;
   background-image: url(/images/black-texture.jpg);
+  background-color: #00000080;
+  background-blend-mode: overlay;
   color: white;
   margin-bottom: 10%;
 }
 
 .bg-light{
   background-image: url(/images/Orange_Construction.jpg);
-  background-color: black;
+  background-color: #000000;
   background-blend-mode: luminosity;
 }
 
 .jumbotron{
   background-image: url(/images/Orange_Construction.jpg);
-  background-color: black;
+  background-color: #000000;
   background-blend-mode: luminosity;
   text-align: center;
   padding: 1%;
@@ -47,6 +49,21 @@ body{
   padding-right: 10px;
 }
 
+.project{
+  border-radius: 5px;
+  background-color: #0005;
+  margin-bottom: 10px;
+  padding: 2%;
+}
+
+.visible{
+  background-color: #FFF9;
+}
+
+.service-list{
+  font-size: 1.3em;
+}
+
 .nav-item:hover{
   transform: scale(1.2,1.2);
   background-color: #00000067;
@@ -72,5 +89,9 @@ body{
 
   body{
     margin-top: 40px;
+  }
+
+  .respond{
+    margin: 5px;
   }
 }
