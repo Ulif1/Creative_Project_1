@@ -72,6 +72,16 @@ body{
   list-style-type: none;
 }
 
+.pop{
+  transition: 0.5s;
+}
+
+.pop:hover{
+  transform: scale(1.2,1.2);
+  z-index: 5;
+  background-color: #0000;
+}
+
 .nav-item:hover{
   transform: scale(1.2,1.2);
   background-color: #00000067;
@@ -82,6 +92,11 @@ body{
   border: 1px solid white;
   padding: 3px;
   background-color: #0004;
+}
+
+.story{
+  background-color: #0004;
+  font-size: 1.2em;
 }
 
 #footer-link{
@@ -97,9 +112,5 @@ body{
 
   body{
     margin-top: 40px;
-  }
-
-  .respond{
-    margin: 5px;
   }
 }
