@@ -6,21 +6,33 @@
 
 body{
   background-attachment: fixed;
-  
+
 }
 
 .bg-light{
-  background-color: #DDD !important;
+  background-color: #F9F9F9 !important;
 }
 
 .jumbotron{
-  background-color: #DDD;
+  background-color: #F9F9F9;
   text-align: center;
   padding: 1%;
 }
 
 .serif{
   font-family: serif;
+}
+
+.centered{
+  text-align: center;
+}
+
+.stretch{
+  width: 100%;
+}
+
+.top{
+  font-weight: bold;
 }
 
 .nav-item{
@@ -35,6 +47,11 @@ body{
   border-radius: 50px;
 }
 
+.inventory{
+  border: 1px solid black;
+  padding: 3px;
+}
+
 #footer-link{
   padding-right: 10px;
 }
@@ -44,11 +61,6 @@ body{
     text-align: center;
     width: 30%;
     margin: auto;
-  }
-
-  ul{
-    background-color: #ff944d;
-    border-radius: 50px;
   }
 
   body{
