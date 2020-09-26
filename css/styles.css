@@ -27,6 +27,10 @@ body{
   padding: 1%;
 }
 
+.info{
+  margin-top: 20px;
+}
+
 .serif{
   font-family: serif;
 }
@@ -62,6 +66,10 @@ body{
 
 .service-list{
   font-size: 1.3em;
+}
+
+.contact-list{
+  list-style-type: none;
 }
 
 .nav-item:hover{
